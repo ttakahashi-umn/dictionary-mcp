@@ -1,0 +1,28 @@
+{
+  "name": "dictionary-mcp",
+  "version": "1.0.0",
+  "description": "プロジェクトの中で用語を統一するための辞書MCP",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "dictionary-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "dictionary", "terminology"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.2",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
