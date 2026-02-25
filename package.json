@@ -10,9 +10,15 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "start:sse": "node dist/server-sse.js",
+    "dev:sse": "tsx src/server-sse.ts"
   },
-  "keywords": ["mcp", "dictionary", "terminology"],
+  "keywords": [
+    "mcp",
+    "dictionary",
+    "terminology"
+  ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.30.2",
